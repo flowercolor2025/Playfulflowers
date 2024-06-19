@@ -1,0 +1,243 @@
+<!-- 宣告HTML5網頁文件 -->
+<!DOCTYPE html>
+<!-- 網頁所屬的地區語言、根元素 -->
+<html lang="zh-Hant-TW">
+ <!-- 網頁檔頭 -->
+<head>
+    <!-- 中繼標籤，網頁文字編碼 -->
+    <meta charset="UTF-8">
+    <!-- RWD響應適網站，媒體查詢，自動調整版面符合裝置（電腦/手機 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 設定IE相容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- 網站作者、擁有者 -->
+    <meta name="author" content="嬉遊花彰Playfulflowers">
+    <!-- 網頁描述，簡單介紹網頁內容 -->
+    <meta name="description" content="嬉遊花彰介紹彰化境內花卉景點, 暢遊熱門花海資訊, 輕鬆找到最滿意的賞花行程">
+    <!-- 網頁編輯器 -->
+    <meta name="generator" content="VisualStudioCode v1.76.1">
+    <!-- 關鍵字、Google排除權重，其他搜尋引擎仍然使用 -->
+    <meta name="keywords" content="嬉遊花彰, 金針花, 花壇虎山巖, 茉莉花, 茉莉花壇夢想館, 荷花, 秀水龍騰公園,油桐花, 員林藤山步道, 蜀葵花, 員林市, 木棉花, 二林東螺溪畔, 康乃馨, 田尾董家花田, 杜鵑花, 社頭杜鵑花大道, 景點">
+    <!-- favicon我的最愛(書籤)圖標 -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- 網頁標題 -->
+    <title>嬉遊花彰-首頁</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <!-- 固定導覽列、header標籤或是nav標籤都可以，但首尾就不需要返回頁首的超連結 -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">嬉遊花彰</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- 導覽按鈕 -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">關於花彰</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="viewpoint.html">與花有約</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="hotel.html">住宿推薦</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="traffic.html">交通資訊</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://toolkit.url.com.tw/bbs/index.php?email=bbs@test155894.url.tw" target="_blank">留言發問</a>
+                  </li>
+                </ul>
+                <!-- 表單、PHP -->
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/daylily-flower-00.webp" class="d-block w-100" alt="花壇虎山巖金針花" title="花壇虎山巖金針花" aria-label="花壇虎山巖金針花">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/hollyhock-flower-00.webp" class="d-block w-100" alt="員林蜀葵花" title="員林蜀葵花" aria-label="員林蜀葵花">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/carnation-00.webp" class="d-block w-100" alt="田尾董家花田康乃馨" title="田尾董家花田康乃馨" aria-label="田尾董家花田康乃馨">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 order-md-0 mt-5">
+            <a type="button"><img src="images/index/daylily-flower-1.webp" class="rounded-circle w-100" alt="「忘憂草」金針花" title="「忘憂草」金針花" aria-label="「忘憂草」金針花" data-bs-toggle="modal" data-bs-target="#imagedaylily"></a>
+            <!-- Model -->
+            <div class="modal fade" id="imagedaylily" tabindex="-1" aria-labelledby="imagedaylilyLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">「忘憂草」金針花</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/index/daylily-flower-1.webp" width="100%">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h2 class="mt-2">「忘憂草」金針花</h2>
+              <p class="card-text">花壇虎山巖以壯麗的自然景觀和金針花海聞名。金針花又稱萱草、忘憂草，更有「母親花」之美譽。這是台灣特有的花卉，在海拔較高的山區生長，而花壇虎山巖正位於此地，成為了金針花的絕佳觀賞景點。</p>
+              <p class="card-text">金針花生長在山坡上，形成金黃色的花海，如一幅金色地毯橫跨山巒，與天空和山巒相映成趣。花期雖短，但吸引眾多遊客前來欣賞和拍攝。在金針花盛開季節，花壇虎山巖舉辦金針花節等活動，吸引更多遊客參觀。遊客在花海中漫步，感受自然奇妙，並拍攝壯麗景色，留下珍貴回憶。虎山巖的金針花以其壯麗景色和美麗花海，吸引眾多遊客前來品味。在花期盛開時，這片金光閃耀的美景絕對值得一遊。</p>
+              <p class="texd-end"><a href="https://www.trimt-nsa.gov.tw/zh-tw/live-camera/3/" target="_blank" class="btn btn-success" role="button" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="即將離開本網站">虎山巖金針花即時影像</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 order-md-1 mt-5">
+            <a type="button"><img src="images/index/carnation-1.webp" class="rounded-circle w-100" alt="「母親花」康乃馨" title="「母親花」康乃馨" aria-label="「母親花」康乃馨"  data-bs-toggle="modal" data-bs-target="#imagecontent"></a>
+            <!-- Model -->
+            <div class="modal fade" id="imagecontent" tabindex="-1" aria-labelledby="imagecontentLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">「母親花」康乃馨</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/index/carnation-1.webp" width="100%">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h2 class="mt-2">「母親花」康乃馨</h2>
+              <p class="card-text">彰化田尾素有「公路花園」美譽，四季花卉繽紛，吸引著眾多花迷前來。董家花田以康乃馨、非洲菊、洋桔梗等著名，更有庭園景觀咖啡和各種花海區，成為攝影愛好者的獨家拍攝景點。春季，寬闊的花田盛開康乃馨，色彩繽紛、芳香四溢，吸引遊客身臨其境，感受春日花海的魅力。康乃馨品種多樣，從粉紅到紫色，單瓣到重瓣，各具特色。遊客可在此漫步，沉浸在康乃馨花海中，享受寧靜時光。董家花田提供多樣體驗活動，如花藝工作坊和手工藝品製作，並有農家樂和小吃店，讓遊客盡情享受鄉村生活。康乃馨更成為田尾地區的亮點，吸引無數遊客尋找春天美好。五月更是康乃馨盛開，為母親節增添溫馨與美麗。</p>
+              <p class="texd-end"><a href="https://m.facebook.com/people/%E8%91%A3%E5%AE%B6%E8%8A%B1%E7%94%B0%E8%8D%89%E5%9C%B0/100063792052135/
+                " target="_blank" class="btn btn-success" role="button" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="即將離開本網站">董家花田FB粉絲頁</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 order-md-2 mt-5">
+            <a type="button"><img src="images/index/Tung-flower-1.webp" class="rounded-circle w-100" alt="「五月雪」油桐花" title="「五月雪」油桐花" aria-label="「五月雪」油桐花" data-bs-toggle="modal" data-bs-target="#imageTung"></a>
+                        <!-- Model -->
+                        <div class="modal fade" id="imageTung" tabindex="-1" aria-labelledby="imageTungLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title">「五月雪」油桐花</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img src="images/index/Tung-flower-1.webp" width="100%">
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+            <div class="card-body">
+              <h2 class="mt-2">「五月雪」油桐花</h2>
+              <p class="card-text">桐花盛開期在4月下旬到5月上旬，象徵情竇初開、初戀、愛情、戀愛。油桐歷史可追溯至日據時代，日本人發現其「桐油」經濟價值，引進種植，主要分布在桃竹苗及中部山區，其他地區也有機會見到。藤山步道因4、5月的油桐花盛開聲名大噪，每逢油桐花季，滿山遍野的油桐花如雪花般飄落，成為眾多遊客的目的地，享受遠離喧囂的美景。</p>
+              <p class="card-text">員林藤山園步道是觀賞的絕佳地點。步道的油桐花生長在山腰和山頂，形成一道道金黃色的花牆，花朵呈現淡黃至深黃色，芬芳怡人，以其壯觀的花海和豐富的觀賞體驗吸引了無數遊客前來品味，在花期盛開時更是一片金光閃耀的美麗景點。</p>
+              <p class="txet-end"><a href="https://tourism.chcg.gov.tw/AttractionsContent.aspx?id=418&chk=D64AA286-3EAA-459F-BB31-66626A61F77F" target="_blank" class="btn btn-success" role="button" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="即將離開本網站">彰化旅遊資訊網</a></p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+          <div class="col-md-7">
+            <h2>【關於花彰】</h2>
+            <p>彰化縣分為「北彰化」、「南彰化」兩大部分，彰化縣以花卉大縣聞名，菊花為彰化之縣花﹐因田尾﹑永靖﹑員林等地的菊花圃﹐其規模之大﹐栽植的「菊口」之多﹐真人嘆為觀止的。菊更被比喻為花之隱士﹐代表高風亮節﹐恬淡隱逸和與世無爭。</p>
+            <p>遊客可尋訪八卦山139縣道、臥龍坡步道、福田生態園區等地賞桐花，或造訪花壇鄉、二水鄉、埤頭鄉、田尾公路花園、溪州公園、社頭花海等地尋覓各式花卉美景。彰化的氣候溫和、土壤肥沃，為各種花卉提供理想生長條件。肥沃的土壤和宜人的氣候提供了絕佳條件。彰化的平原地區是金針花的主要種植區，其需要充足的陽光和肥沃的土壤，而彰化的氣候和土壤特性恰好符合這些需求，因此金針花在這裡生長得格外茂盛。而彰化的丘陵地區則適合茉莉花、油桐花等野生花卉生長。在這些山坡上，常常可以看到它們在清新的山間氣息中綻放出獨特的美麗。彰化的沿海地帶也不例外，擁有海濱植物如海濱牽牛花等。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/index/chrysanthemum-1.webp" class="rounded-circle w-100" alt="關於花彰" title="關於花彰" class="img-fluid mx-auto" aria-label="關於花彰">
+          </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+          <div class="col-md-7 order-md-1">
+            <h2>【住宿推薦】</h2>
+            <p>彰化地區擁有多樣化的住宿選擇，滿足各種旅客的需求和喜好。從市區到郊區，都有不同風格和價位的住宿選擇，讓您在旅途中感受到舒適和便利。首先，市區的酒店和旅館集中在彰化市和員林市以及鹿港古城等地，這些地區有許多知名的連鎖品牌酒店以及獨立經營的精品旅館，提供各種價位和設施水準的住宿選擇。您可以根據自己的需求和預算選擇適合的住宿。</p>
+            <p>除了市區，郊區和山區也有許多獨特的住宿體驗。例如，溪湖地區有許多民宿和渡假村，環境清幽，適合度假休閒。而在田尾地區，您可以找到一些農家民宿，可以體驗農村生活，品嚐新鮮的農產品。另外，如果您喜歡大自然和露營，彰化地區也有許多露營場地和露營基地，提供帳篷和露營車等設施，讓您與家人或朋友共度美好時光。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/index/hotel-1.webp" class="rounded-circle w-100" alt="美食饗宴" title="美食饗宴" class="img-fluid mx-auto" aria-label="美食饗宴">
+          </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+          <div class="col-md-7">
+            <h2>【交通資訊】</h2>
+            <p>彰化，交通四通八達，便利無比。從客運到鐵路，各項服務精心安排，讓您輕鬆暢遊。首先，客運網羅眾多線路，國光、統聯、員林、彰化、台中等客運業者提供豐富行程。您可前往彰化即時公車動態網站查詢最新資訊，或至各客運公司官網，例如《國光客運》、《統聯客運》、《員林客運》、《彰化客運》等，輕鬆查詢班次與票價，提前預訂座位。</p>
+            <p>對於鐵路交通，台鐵與高鐵提供全面服務。台鐵涵蓋彰化、花壇、大村、員林、永靖、社頭、田中、二水、源泉等車站，網站提供時刻表、票價查詢及網路訂票功能，方便您隨時安排行程。高鐵彰化站位於彰化縣田中鎮，鄰近台鐵田中車站，提供快速舒適的旅遊選擇。您可撥打客服專線或上網訂票，享受便捷服務。</p>
+            <p>無論您前往何處，彰化的交通系統將為您提供最佳選擇，讓旅程更加輕鬆愉快。立即計畫您的行程，探索彰化的美麗風光吧！</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/index/bus-1.webp" class="rounded-circle w-100" alt="交通資訊" title="交通資訊" class="img-fluid mx-auto" aria-label="交通資訊">
+          </div>
+        </div>
+      </div>
+      <footer class="py-4 bg-dark text-white">
+        <div class="container col-sm text-left mb-3">
+          <p>嬉遊花彰(總公司)地址： 505  彰化縣鹿港鎮中正路588號<br>
+            聯絡電話：(04)777-1678<br>
+            E-mail：flowercolor2025@gmail.com<br>
+            服務時間：週一至週五　上午8時00分至12時00分，下午1時00分至5時00分</p>
+          <p>為提供更為穩定的瀏覽品質與使用體驗，建議更新瀏覽器至以下版本：<br>
+            最新版本Edge、最新版本Chrome、最新版本Firefox<br>
+            最佳解析度1024*768&nbsp;以上</p>          
+        </div>
+        <div class="container"> 
+        <p class="float-end"><a class="btn btn-info" role="button" href="#top">回到頁面頂端</a></p>
+        <p>嬉遊花彰  &copy;2024 PLAYFULFLOWERS. ALL RIGHTS RESERVED.</p>
+        </div>
+      </footer>
+    </main>
+    
+    <!-- bootstrap.bundle.min.js包含popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <!-- Tooltips改版前
+    <script>
+      $(function () { $('[data-toggle="tooltip"]').tooltip()})
+    </script> -->
+    <!-- Tooltips改版後 -->
+    <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+    </script>
+</body>
+</html>
